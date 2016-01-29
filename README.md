@@ -1,1 +1,0 @@
-# Door-To-The-Right
