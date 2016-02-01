@@ -1,1 +1,4 @@
-
+def sittingroom():
+    import time
+    print("Welcome to the sitting room")
+    time.sleep(1)
