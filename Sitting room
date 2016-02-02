@@ -1,4 +1,20 @@
 def sittingroom():
     import time
     print("Welcome to the sitting room")
-    time.sleep(1)
+    time.sleep(2)
+    print("There is two loungers in the room and a bear skin rug upon the floor")
+    time.sleep(2)
+    print("A small coffee table stands between the loungers")
+    time.sleep(2)
+    print("Upon the table there is a half full glass of red liquid. It looks vaguely like blood"!)
+    time.sleep(2)
+    print("You ignore the weird glass and see a sealed envelope next to it with a name on it")
+    time.sleep(2)
+    print("The name is not yours, it reads Svarin")
+    time.sleep(2)
+    print("Maybe you should leave it and leave the room")
+    time.sleep(2)
+    envelope = raw_input("Would you like to open the envelope? (y/n)")
+    if envelope == "y":
+        print("Brahms, I am coming to visit you. My carriage is due to arrive within 3 days. I need your help brother, my illness is bad. I have a strong desire to hurt someone and my headaches are increasingly bad. I hope this doesn't inconvenience you. From your brother, Mervyn.")
+    
