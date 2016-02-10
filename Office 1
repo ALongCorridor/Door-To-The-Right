@@ -4,8 +4,15 @@ def office1():
     time.sleep(1)
     print("The room is dark")
     time.sleep(2)
-    print("You can see some bookshelves along the walls lit up by the faint light of a candle
+    print("You can see some bookshelves along the walls lit up by the faint light of a candle")
     time.sleep(2)
     print("In the centre of the room is a desk, upon it is the candle and a large book")
     time.sleep(2)
-    print("
+    print("The book is open")
+    time.sleep(2)
+    print("It seems to be about the house...")
+    time.sleep(2)
+    book = raw_input("This book seems important, do you want to put it into your backpack? (y/n)")
+    if book == "y":
+        backpack.append("Histrory of Crickley Hall")
+        print("Your backpack is heavy")
